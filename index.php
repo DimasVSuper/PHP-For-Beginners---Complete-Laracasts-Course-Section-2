@@ -10,6 +10,6 @@ switch ($page) {
         include 'contact.php';
         break;
     default:
-        include 'index.view.php';
+        include 'views/index.view.php';
         break;
 }
