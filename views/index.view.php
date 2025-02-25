@@ -26,10 +26,8 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <a href="?page=home">Home</a>
-        <a href="?page=about">About</a>
-        <a href="?page=contact">Contact</a>
-    </div>
+    <?php
+        include 'views/partials/nav.php';
+    ?>
 </body>
 </html>

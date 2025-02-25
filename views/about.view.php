@@ -28,11 +28,9 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <a href="?page=home">Home</a>
-        <a href="?page=about">About</a>
-        <a href="?page=contact">Contact</a>
-    </div>
+        <?php
+            include 'views/partials/nav.php';
+        ?>
     <div class="content">
         <h1>About Us</h1>
         <p>Welcome to the About page. Here you can find more information about our website and what we do.</p>
