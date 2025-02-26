@@ -23,6 +23,9 @@
             text-decoration: underline;
             color: aqua;
         }
+        .header .active {
+            color: red;
+        }
     </style>
 </head>
 <body>
