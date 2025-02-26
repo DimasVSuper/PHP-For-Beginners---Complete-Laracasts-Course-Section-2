@@ -1,4 +1,7 @@
 <?php
-$heading = 'Contact';
-include 'function.php';
-include 'views/contact.view.php';
+
+require 'functions.php';
+
+$heading = 'Contact Us';
+
+require "views/contact.view.php";

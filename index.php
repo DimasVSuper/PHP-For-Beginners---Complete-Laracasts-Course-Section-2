@@ -1,7 +1,7 @@
 <?php
 
+require 'functions.php';
 
+$heading = "Home";
 
-$heading = 'Home';
-include 'function.php';
-include 'views/index.view.php';
+require "views/index.view.php";
